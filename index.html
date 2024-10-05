@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Forum</title>
+    <!-- daisyUi and tailwind -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.12/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="shortcut icon" href="retro-tv.png" type="image/x-icon">    
+</head>
+<body>
+
+    <!-- search button -->
+     <div class="bg-[#31354d] w-[50%] h-36 ml-36 mt-20 p-5">
+        <h1 class="text-white text-xl font-bold mb-3">Search here</h1>
+        <input id="input-text" type="text" class="rounded-[50px] bg-white h-14 w-[90%] pl-4 outline-none" placeholder="Search here anything">
+        <button id="search-btn" class="bg-[#797DFC] text-white font-semibold absolute -ml-24 mt-2 py-2 px-5 rounded-[50px]">Search</button>
+     </div>
+
+
+     <!-- let discuss section -->
+      <div class="border border-slate-400 mt-10 w-[90%] mx-auto py-6">
+            <h1 class="text-center text-2xl font-bold">Let's Discuss</h1>
+            <p class="text-center">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
+            <div class="flex w-full p-2 mx-auto gap-5 mt-10">
+                <div class="w-8/12 space-y-5" id="all-post-container">
+                    <!-- <div class="bg-[#797DFC1A] rounded-2xl p-4 flex space-x-3">
+                        <img src="" alt="" class="w-20 h-20 rounded-2xl">
+                        <div class="space-y-5">
+                            <h4 class="space-x-4 font-semibold"><span># Music</span> <span>Author : Awlad Hossain</span></h4>
+                            <h2 class="font-bold text-xl">10 Kids Unaware of Their Halloween Costume</h2>
+                            <p class="border-b-2 border-dashed border-[#797DFC1A] pb-3">It’s one thing to subject yourself to ha Halloween costume mishap because, hey that’s your prerogative</p>
+
+                            <div class="space-x-4 flex justify-between">
+                                <div>
+                                    <i class="fa-regular fa-comment-dots"></i>
+                                    <span>560</span>
+                                    <i class="fa-regular fa-eye"></i>
+                                    <span>1,568</span>
+                                    <i class="fa-regular fa-clock"></i>
+                                    <span>5 Min</span> 
+                                </div>
+                                <button class="bg-[#10B981] btn w-10 px-6 rounded-full text-white text-center">
+                                <i class="fa-regular fa-envelope-open font-bold text-xl"></i>
+                                </button>               
+                            </div>
+                        </div>
+                    </div> -->
+                </div>            
+                <div class="w-4/12 bg-[#12132D0D] rounded-2xl p-3 h-max">    
+                        <div class="flex items-center justify-between">
+                            <h1 class="font-semibold">Title</h1>
+                            <div class="flex items-center gap-3">
+                                <i class="fa-solid fa-check-double text-[#3DCE09]"></i>
+                                <p>Mark as read ( <span>0</span> )</p>                    
+                            </div> 
+                        </div>      
+                </div>
+            </div>
+      </div>
+      
+    
+
+
+
+    <!-- latest post section -->
+     <main class="mt-20 mb-20">
+        <div id="latest-post-container" class="grid grid-cols-1 lg:grid-cols-3 w-[90%] mx-auto gap-5">
+            <!-- <div class="rounded-3xl p-3 border border-[#12132D26] space-y-4">
+                <img src="" alt="" class="w-[300px] h-[150px] rounded-2xl mx-auto">
+                <div class="flex items-center space-x-2">
+                    <i class="fa-regular fa-calendar"></i>
+                    <p>29 January 2024</p>
+                </div>
+                <h2 class="font-bold">What will a mars habitat force that impact in our daily life!!!</h2>
+                <p>Yes, you can run unit tests and view the results directly within the app. </p>
+                <div class="flex items-center space-x-6">
+                    <img src="" alt="" class="w-11 h-11 rounded-full">
+                    <div>
+                        <h3 class="font-bold">Cameron Williamson</h3>
+                        <p>Unknown</p>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+     </main>
+
+     <script src="script.js"></script>
+</body>
+</html>
